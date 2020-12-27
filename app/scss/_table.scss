@@ -1,0 +1,119 @@
+.table__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.table__content-form {
+    margin: 162px 0;
+    opacity: 0;
+    transform: translateX(-30%);
+    transition: all 0.8s;
+}
+
+.table__content-form_active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.table__content-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.line_margin {
+    margin: 25px auto;
+}
+
+.row {
+    max-width: 600px;
+    display: flex;
+    //padding: 0 10px;
+}
+
+.form__input, 
+.form__select {
+    padding: 0 25px;
+    margin: 0px 10px 10px 0;
+    width: 277px;
+    height: 60px;
+    background-color: #E5E5E5;
+    border: none;
+    border-radius: 5px;
+    color: rgba(51, 51, 51, 0.5);
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.select-container {
+    position: relative;
+}
+
+.select-container::after {
+    content: "";
+    display: block;
+    border-style: solid;
+    width: 7px;
+    border-width: 7px 7px 0 7px;
+    border-color: rgba(51, 51, 51, 0.5) transparent transparent transparent;
+    pointer-events: none;
+    position: absolute;
+    top: 40%;
+    right: 20px;
+}
+
+.form__select {
+    appearance: none;
+}
+
+.row_button {
+    padding-right: 10px;
+}
+
+.form__button {
+    height: 60px;
+    width: 100%;
+    background: #E8C300;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.table__content-image {
+    max-height: 575px;
+    transform: translateY(30%);
+    opacity: 0;
+    transition: all 0.8s;
+}
+
+.table__content-image_active {
+    transform: translateY(0);
+    opacity: 1;
+}
+.table__content-img {
+    width: 100%;
+    height: auto;
+}
+
+.table__content-box {
+    position: relative;
+    bottom: 400px;
+    left: 400px;
+}
+
+.table__text {
+    text-align: center;
+    line-height: 12px;
+    color: rgba(51, 51, 51, 0.5);
+    padding-bottom: 40px;
+}
+
+.teble__text-num {
+    font-weight: 700;
+}

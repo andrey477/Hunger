@@ -1,0 +1,137 @@
+.events {
+    background: url(../img/events-bg.png) center/cover no-repeat;
+}
+
+.events__text {
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    line-height: 14px;
+    font-weight: 700;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.events__content {
+    display: flex;
+    justify-content: center;
+}
+
+.title-box {
+    width: 100%;
+    max-width: 476px;
+    padding: 15px;
+    background-color: #000000;
+}
+
+.events__content {
+    max-height: 475px;
+}
+
+.image-weddings {
+    transform: translateX(-30%);
+}
+
+.image-corp {
+    transform: translateX(30%);
+}
+
+.image-weddings,
+.image-corp {
+    max-height: 575px;
+    position: relative;
+    top: -150px;
+    opacity: 0;
+    transition: all 0.8s;
+}
+
+.image-weddings__img,
+.image-corp__img {
+    max-width: 575px;
+    width: 100%;
+    height: auto;
+}
+
+.image-weddings_active,
+.image-corp_active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.image-weddings__title {
+    font-size: 24px;
+    font-family: 'Banny Round';
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 12px;
+    align-items: center;
+}
+
+.image-weddings__box {
+    position: relative;
+    bottom: 400px;
+    right: 80px;
+}
+
+.image-weddings__title-box {
+    border-radius: 5px 5px 0px 0px;
+    transform: rotate(90deg);
+    position: relative;
+    top: 333px;
+    left: 242px;
+}
+
+.image-corp__title {
+    font-size: 24px;
+    font-family: 'Banny Round';
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 12px;
+    align-items: center;
+}
+
+.image-corp__box {
+    position: relative;
+    bottom: 400px;
+    left: 400px;
+}
+
+.image-corp__title-box {
+    border-radius: 5px 5px 0px 0px;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 332px;
+    right: 143px;
+}
+
+.events__contact {
+    margin: 0;
+    padding: 40px;
+    line-height: 12px;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.events__contact_bold {
+    font-weight: 700;
+}
+
+.adaptive {
+    display: none;
+    border-radius: 5px 5px 5px 5px;
+    width: 100%;
+    max-width: 476px;
+    padding: 15px;
+    background-color: #000000;
+}
+
+.adaptive__title {
+    font-size: 24px;
+    font-family: 'Banny Round';
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 12px;
+    align-items: center;
+}

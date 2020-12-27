@@ -1,0 +1,441 @@
+@media(max-width: 1522px) {
+    .aside__left {
+        left: 150px;
+    }
+    .aside__right {
+        right: 150px;
+    }
+}
+
+@media(max-width: 1465px) {
+    .about__content,
+    .content {
+        margin: 0 10px;
+    }
+
+    .slider__item {
+        margin: 0 -10px;
+    }
+    
+    .cafe-content {
+        margin: 0 10px;
+    }
+
+    .image-weddings__box,
+    .image-corp__box {
+        display: none;
+    }
+
+    .about__content {
+        flex-direction: column;
+    }
+    .about__description {
+        margin: 10px;
+    }
+
+    .content {
+        flex-direction: column-reverse;
+        align-items: center;
+        // display: block;
+        max-width: 575px;
+        margin: 0 auto;
+    }
+
+    .table__content {
+        flex-direction: column;
+    }
+
+    .table__content-form {
+        margin: 30px 0;
+    }
+}
+
+@media(max-width: 1280px) {
+    .slider__image-box {
+        display: none;
+    }
+
+    .header {
+        padding-bottom: 50px;
+    }
+
+
+    .header__content {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .header__main-text {
+        margin-bottom: 50px;
+    }
+
+    .aside__left {
+        top: 0;
+        left: 0;
+        order: 1;
+    }
+
+    .aside__left-text {
+        transform: rotate(0deg);
+    }
+
+    .aside__right {
+        top: 20px;
+        right: 0;
+        transform: rotate(0deg);
+        order: 2;
+    }
+
+    .aside__right-button {
+        transform: rotate(0deg);
+    }
+
+    .button-down__container {
+        margin-top: 50px;
+    }
+
+    .contact__form {
+        margin: 0 10px;
+    }
+}
+
+@media(max-width: 1175px) {
+    
+    .about__image {
+        position: relative;
+        left: 40px;
+    }
+
+    .about__image-img {
+        max-width: 80%;
+    }
+
+    .about__image-box {
+        width: 225px;
+        height: 225px;
+        bottom: 350px;
+        left: 300px;
+    }
+    
+
+
+    .content__image {
+        max-width: 575px;
+    }
+
+
+
+    .content__desription {
+        margin: 0 5px;
+    }
+
+    .table__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .table__content-form {
+        margin: 20px 10px;
+    }
+
+    .cafe-content__tabs-tab {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .events__content {
+        flex-direction: column;
+    }
+
+    // .image-weddings,
+    // .image-corp {
+    //     top: 0;
+    // }
+    .events__content {
+        max-height: none;
+        align-items: center;
+    }
+}
+
+@media(max-width: 1100px) {
+    .slider__item-text,
+    .slider__line {
+        display: none;
+    }
+
+    .slider__item-title {
+        margin: 0;
+    }
+
+    .slider__item {
+        flex-direction: column-reverse;
+    }
+
+    .slider__image {
+        padding: 0;
+    }
+
+    .slick-dots {
+        margin: 0;
+        padding-bottom: 30px;
+    }
+
+    .our-team__text {
+        padding: 30px 0;
+    }
+
+    .content__desription-title {
+        margin-top: 0;
+    }
+
+    .content__desription-text {
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+
+    .slick-dots {
+        padding-top: 10px;
+    }
+
+    .specialties-content__text {
+        padding: 30px 0;
+    }
+}
+
+@media(max-width: 768px) {
+    .menu__burger-container {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        top: -34px;
+        height: 80px;
+        border-bottom: 1px solid  rgba(255, 255, 255, 0.2);
+        background-color: #000;
+        z-index: 2;
+    }
+
+    .menu__burger-title {
+        display: block;
+        position: relative;
+        top: -10px;
+        h2 {
+            color: #fff;
+        }
+    }
+
+    .menu__burger {
+        position: relative;
+        margin-right: 20px;
+        top: 25px;
+        width: 40px;
+        span {
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #E8C300;
+        }
+    }
+    
+    .menu__burger:after,
+    .menu__burger::before {
+        content: "";
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #E8C300;
+    }
+    
+    .menu__burger:after {
+        top: 25px;
+    }
+    
+    .menu__burger::before {
+        top: 15px;
+    }
+
+    .menu__burger_active span{
+        transform-origin: left top;
+        transform: rotate(45deg);
+    }
+
+    .menu__burger_active::after {
+        transform-origin: left top;
+        transform: rotate(-45deg);
+    }
+
+    .menu__burger_active::before {
+        opacity: 0;
+    }
+
+    .menu {
+        display: none;
+        z-index: 1;
+        border-bottom: 1px solid  rgba(255, 255, 255, 0.2);
+        transition: all 0.3s;
+    }
+
+    .menu.menu_active {
+        display: block;
+    }
+
+    .menu__list {
+        text-align: center;
+        height: 120px;
+        display: block;
+        border: none;
+    }
+
+    .menu__list-logo {
+        display: none;
+    }
+
+    .menu__list-link {
+        padding: 0;
+    }
+
+    .header__content {
+        margin-top: 20px;
+    }
+
+    .header__main-name {
+        font-size: 72px;
+    }
+
+    .header__main-button {
+        width: 170px;
+        height: 40px;
+    }
+}
+
+@media(max-width: 736px) {
+    .cafe-content__tabs {
+        border-top: 1px solid rgba(51, 51, 51, 0.2);
+        border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+    }
+
+    .cafe-content__tabs-link {
+        border: none;
+    }
+
+    .gallery {
+        flex-direction: column;
+    }
+
+    .gallery__box {
+        width: 100%;
+        margin-top: -2px;
+    }
+
+    .contact {
+        padding: 20px 0;
+    }
+
+    .contact__form-row {
+        flex-direction: column;
+    }
+
+    .contact__form-input {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .header__main-name {
+        font-size: 64px;
+    }
+
+    .about__image-box,
+    .table__content-box,
+    .content__image-box {
+        display: none;
+    }
+}
+
+@media(max-width: 590px) {
+    .about__image {
+        left: 0;
+    }
+
+    .about__image-img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .about__image-box,
+    .table__content-box {
+        display: none;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .slider__item-title {
+        font-size: 24px;
+    }
+
+    .slider__image {
+        margin-left: 10px;
+    }
+
+    .image-weddings__title-box,
+    .image-corp__title-box  {
+        display: none;
+    }
+
+    .adaptive {
+        display: block;
+        z-index: 2;
+    }
+
+    .image-weddings,
+    .image-corp {
+        top: 0;
+    }
+
+    .image-weddings__img,
+    .image-corp__img {
+        position: relative;
+        top: -50px;
+    }
+
+    .header__main-name {
+        font-size: 48px;
+    }
+
+    .header__main-button {
+        width: 140px;
+        height: 40px;
+    }
+}
+
+@media(max-width: 380px) {
+    .header__main-name {
+        font-size: 36px;
+    }
+
+    .header__main-button {
+        width: 120px;
+        height: 30px;
+    }
+}
+
+@media(max-width: 380px) {
+    .cafe-content__tabs-link {
+        display: block;
+        border: none;
+        padding: 5px;
+    }
+}
+
+@media(min-width: 769px) {
+    .menu {
+        display: flex;
+    }
+
+    .menu__list {
+        display: flex;
+    }
+}
